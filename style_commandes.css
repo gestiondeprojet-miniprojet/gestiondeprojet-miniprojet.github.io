@@ -1,0 +1,211 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #111;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#header {
+    margin-top: 1em;
+}
+
+#header a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#header a:hover {
+    color: #bfa136;
+}
+
+.commandes-title {
+    color: #bfa136;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.commandes-section {
+    padding: 3em;
+}
+
+.commandes-container {
+    display: flex;
+    gap: 4em;
+    margin-top: 3em;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.commandes-left {
+    flex: 1;
+    max-width: 40em;
+}
+
+.commandes-right {
+    flex: 1;
+    max-width: 40em;
+}
+
+.commandes-left p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.commandes-text {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+input,
+select,
+textarea {
+    background: #222;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #bfa136;
+}
+
+button {
+    background: #bfa136;
+    color: black;
+    border: none;
+    padding: 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover {
+    background: #a5862f;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper select {
+    background: #222;
+    color: white;
+    padding-left: 3em;
+}
+
+.select-wrapper::after {
+    content: "▼";
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.time-slot {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0;
+    font-size: 1em;
+}
+
+.time-slot span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
+
+.time-slot.available {
+    color: green;
+}
+
+.time-slot.low {
+    color: orange;
+}
+
+.time-slot.full {
+    color: red;
+}
+
+.time-slot span {
+    background-color: currentColor;
+}
+
+.commandes-container {
+    flex-direction: row;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    background: #222;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+button[type="submit"] {
+    background: #bfa136;
+    color: black;
+    border: none;
+    padding: 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 0.5em;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background: #a5862f;
+}
