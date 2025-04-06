@@ -1,37 +1,45 @@
 <!DOCTYPE HTML>
 <html lang="fr">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title>Nom du Restaurant</title>
     <link rel="stylesheet" href="style_contact.css">
-    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1 class="logo">Nom Restaurant (stand in logo)</h1>
-        <nav id="header">
+        <div id="header">
             <a href="index.html">Accueil</a>
             <a href="menu.html">Menu</a>
             <a href="commandes.html">Commandes</a>
             <a href="contact.html">Contact</a>
-        </nav>
+        </div>
     </header>
 
     <main class="contact-section">
         <h1 class="contact-title">Contact</h1>
-        <div class="contact-container">
-            <div class="contact-text">
-                <p><strong>Bienvenue !</strong> Si vous avez des questions, suggestions ou souhaitez nous laisser un message, vous êtes au bon endroit.</p>
-                <p>Notre restaurant gastronomique est situé à <strong>Lyon</strong>, dans le Rhône (69).</p>
-                <p>Nous sommes ouverts du <strong>lundi 12:00</strong> au <strong>samedi 23:00</strong>, jours fériés inclus.</p>
 
-                <div class="alert">
-                    <strong>Attention :</strong> Aucune réservation ne sera prise sur ce formulaire.  
-                    Pour toute réservation, veuillez cliquer sur <strong>"Commandes"</strong> ci-dessus.
+        <div class="contact-container">
+            <!-- Partie gauche -->
+            <div class="contact-left">
+                <div class="contact-text">
+                    <p><strong>Bienvenue !</strong> Si vous avez des questions, suggestions ou souhaitez nous laisser un message, vous êtes au bon endroit.</p>
+                    <p>Notre restaurant gastronomique est situé à <strong>Lyon</strong>, dans le Rhône (69).</p>
+                    <p>Nous sommes ouverts du <strong>lundi 12:00</strong> au <strong>samedi 23:00</strong>, jours fériés inclus.</p>
+
+                    <div class="alert">
+                        <strong>Attention :</strong> Aucune réservation ne sera prise sur ce formulaire.  
+                        Pour toute réservation, veuillez cliquer sur <strong>"Commandes"</strong> ci-dessus.
+                    </div>
+
+                    <div class="photo-wrapper">
+                        <img src="photo_11.webp" alt="Photo illustrative du restaurant" class="contact-photo">
+                    </div>
                 </div>
             </div>
 
+            <!-- Partie droite -->
             <form action="#" method="post" class="contact-form">
                 <label for="prenom"><strong>Prénom :</strong></label>
                 <input type="text" id="prenom" name="prenom" required>
@@ -50,7 +58,7 @@
 
                 <div class="checkbox-group">
                     <input type="checkbox" id="promos" name="promos">
-                    <label for="promos">J'accepte de recevoir des promos et actualités par e-mail.</label>
+                    <label for="promos">J'accepte de recevoir des promos et actualités par e-mail</label>
                 </div>
 
                 <button type="submit">Envoyer</button>
