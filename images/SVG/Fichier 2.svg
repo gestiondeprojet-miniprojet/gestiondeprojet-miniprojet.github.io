@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 577 184.79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #bfa134;
+      }
+
+      .cls-4 {
+        font-family: PlayfairDisplay-Regular, 'Playfair Display';
+        font-size: 64px;
+        font-variation-settings: 'wght' 400;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g>
+      <text class="cls-4" transform="translate(8.38 169.37)"><tspan class="cls-2" x="0" y="0">LE CLAIR DE</tspan><tspan class="cls-1" x="378.87" y="0"> </tspan><tspan class="cls-3" x="394.81" y="0">LUNE</tspan></text>
+      <path class="cls-3" d="M291.5,113.42c31.32,0,56.71-25.39,56.71-56.71,0-2.62-3.93-3.06-5.29-.81-6.46,10.68-18.18,17.82-31.57,17.82-20.36,0-36.86-16.5-36.86-36.86,0-13.39,7.14-25.12,17.82-31.57,2.25-1.36,1.81-5.29-.81-5.29-31.32,0-56.71,25.39-56.71,56.71s25.39,56.71,56.71,56.71Z"/>
+    </g>
+  </g>
+</svg>
