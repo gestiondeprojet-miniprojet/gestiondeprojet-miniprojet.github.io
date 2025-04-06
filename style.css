@@ -20,4 +20,35 @@
         clear: both;
         display: block;
         }
+#navbar {
+    background-color:rgb(255, 255, 255);
+    text-align: right;
+    margin-left:0px;
+    font-family:Roboto;
+    text-transform: uppercase;
+    padding: 15px 15px 15px 15px;
+    margin:0px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.212);
+    text-decoration: none;
+}
+#navbar a{
+    color:black;
+    text-decoration: none;
+    margin:15px;
+    font-size: 1.6em;
+}
+#navbar a.active {color:rgb(138, 44, 0)}
+#navbar a:hover {color: #ff5e00;
+}
 
+#select{color: #6E7E85}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#titre img{
+    width: 25%;;
+}
+#titre {
+    text-align: center;
+}
