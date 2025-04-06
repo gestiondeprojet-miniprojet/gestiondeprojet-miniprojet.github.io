@@ -44,25 +44,22 @@ header {
 }
 
 .commandes-section {
-    padding: 3em;
+    padding: 3em 2em;
 }
 
 .commandes-container {
     display: flex;
-    gap: 4em;
-    margin-top: 3em;
+    justify-content: space-between;
     align-items: flex-start;
+    gap: 2em;
+    margin-top: 3em;
     flex-wrap: wrap;
 }
 
-.commandes-left {
-    flex: 1;
-    max-width: 40em;
-}
-
+.commandes-left,
 .commandes-right {
     flex: 1;
-    max-width: 40em;
+    max-width: 45%;
 }
 
 .commandes-left p {
@@ -90,6 +87,7 @@ textarea {
     padding: 1em;
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
 
 input:focus,
@@ -109,6 +107,7 @@ button {
     border-radius: 0.5em;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
 
 button:hover {
@@ -170,42 +169,4 @@ button:hover {
 
 .time-slot span {
     background-color: currentColor;
-}
-
-.commandes-container {
-    flex-direction: row;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-    background: #222;
-    color: white;
-    border: 1px solid #555;
-    border-radius: 0.5em;
-    padding: 1em;
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
-}
-
-input[type="checkbox"] {
-    margin-right: 0.5em;
-}
-
-button[type="submit"] {
-    background: #bfa136;
-    color: black;
-    border: none;
-    padding: 1em;
-    font-size: 1.1em;
-    font-weight: bold;
-    border-radius: 0.5em;
-    cursor: pointer;
-    width: 100%;
-}
-
-button[type="submit"]:hover {
-    background: #a5862f;
 }
