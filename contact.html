@@ -1,23 +1,53 @@
 <!DOCTYPE HTML>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>Insérer nom restaurant</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <header>
-            <h1>Nom Restaurant(stand in logo)</h1>
-            <div id=""header>
-                <a href="index.html">Accueil</a>
-                <a href="menu.html">Menu</a>
-                <a href="commandes.html">Commandes</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </header>
-        <main>
-            <div></div>
-        </main>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Insérer nom restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Nom Restaurant (stand in logo)</h1>
+        <div id="header">
+            <a href="index.html">Accueil</a>
+            <a href="menu.html">Menu</a>
+            <a href="commandes.html">Commandes</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <main>
+        <h1>Contact</h1>
+        <div>
+            Notre restaurant est un restaurant gastronomique situé à Lyon dans le Rhône (69).
+            Nous sommes ouverts du lundi à partir de 12:00 jusqu'à samedi 23:00, jours fériés y compris.
+        </div>
+        <div> 
+            Aucune réservation ne sera prise sur ce formulaire. 
+            Pour toutes réservations, merci de cliquer sur le formulaire "Commandes" plus haut.
+        </div>
+
+        <form action="#" method="post">
+            <label for="prenom">Prénom :</label><br>
+            <input type="text" id="prenom" name="prenom" required><br><br>
+
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="telephone">Téléphone :</label><br>
+            <input type="tel" id="telephone" name="telephone"><br><br>
+
+            <label for="message">Entrer votre message :</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <input type="checkbox" id="promos" name="promos">
+            <label for="promos">J'accepte de recevoir des promos et actualités par mail.</label><br><br>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+</body>
 </html>
