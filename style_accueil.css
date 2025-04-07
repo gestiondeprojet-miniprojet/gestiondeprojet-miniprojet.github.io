@@ -35,6 +35,22 @@ header {
     color: #bfa136;
 }
 
+.accueil-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    background-image: url("images/photo_00_final.png");
+    background-repeat: no-repeat;
+}
+
+.accueil-logo {
+    flex: 1;
+    max-width: 60%;
+    padding:5% 5% 5% 35%;
+    z-index:1;
+}
+
 #main-image{
     background:
            /* top, transparent black, faked with gradient */ 

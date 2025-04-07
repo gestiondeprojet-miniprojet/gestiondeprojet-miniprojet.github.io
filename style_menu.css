@@ -44,6 +44,16 @@ header {
     width: 100%;
 }
 
+.menu-left {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+.menu-right {
+    flex: 1;
+    max-width: 50%;
+}
+
 #main-image{
     background:
            /* top, transparent black, faked with gradient */ 
