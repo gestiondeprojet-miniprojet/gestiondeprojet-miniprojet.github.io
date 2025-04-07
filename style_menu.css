@@ -1,0 +1,128 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #111;
+    text-align: center;
+    padding: 1em 0;
+    margin-bottom: 0;
+}
+
+#header {
+    margin-top: 1em;
+}
+
+#header a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#header a:hover {
+    color: #bfa136;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.menu-container {
+    display: flex;
+    gap: 2em;
+    margin-top: 3em;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.menu-left {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+.menu-right {
+    flex: 1;
+    max-width: 50%;
+}
+
+#main-image{
+    background:
+           /* top, transparent black, faked with gradient */ 
+           linear-gradient(
+             rgba(0, 0, 0, 0.5), 
+             rgba(0, 0, 0, 0.5)
+           ),
+           /* bottom, image */
+           url("images/unnamed.webp");
+           overflow: hidden;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:0;
+    padding: 0; /* remove any pre-existing padding, just in case */
+    padding-bottom: 35%; /* for a 4:3 aspect ratio */
+    
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 31%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 47%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    
+    }
+.ligne:after {
+        content: "";
+        clear: both;
+        display: block;
+        }
+
+
+.title {
+    color: #bfa136;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: #bfa136;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.smalltitle {
+    color: #8f7929;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
