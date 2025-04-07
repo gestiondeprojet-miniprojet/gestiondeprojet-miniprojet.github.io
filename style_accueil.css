@@ -68,7 +68,7 @@ header {
 
 .accueil-left {
     flex: 1;
-    max-width: 30%;
+    max-width: 35%;
   }
   
 .accueil-right {
@@ -102,10 +102,10 @@ header {
     color: #bfa136;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-weight: bold;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 1em;
 }
 
 .subtitle {
@@ -125,6 +125,24 @@ header {
     font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+button {
+    background: #bfa136;
+    color: black;
+    border: none;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    padding: 1em 3em 1em 3em;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover {
+    background: #a5862f;
 }
 
 
